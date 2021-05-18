@@ -10,11 +10,6 @@
     "BOT_TOKEN": {
       "description": "A bot token from @BotFather",
       "required": true
-    },
-    "DURATION_LIMIT": {
-      "description": "Max audio duration limit for downloads (minutes).",
-      "required": false,
-      "value": "10"
     }
   }
 }
