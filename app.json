@@ -7,10 +7,6 @@
   "logo": "https://telegra.ph/file/938c1c08c53972280185c.jpg",
   "stack": "container",
   "env": {
-    "SESSION_NAME": {
-      "description": "Pyrogram session string",
-      "required": false
-    },
     "BOT_TOKEN": {
       "description": "A bot token from @BotFather",
       "required": true
