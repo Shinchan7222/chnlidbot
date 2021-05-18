@@ -14,7 +14,7 @@
     "BOT_TOKEN": {
       "description": "A bot token from @BotFather",
       "required": true
-    },
+     },
     }
   }
 }
