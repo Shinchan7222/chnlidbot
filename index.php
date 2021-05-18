@@ -1,12 +1,12 @@
 <?php
 /*
-CREDIT TO @Benchamxd
-CHANNEL @indusbots
+CREDIT TO @Shinchan7222
+CHANNEL @MafiaBot_Support
 PLEASE DONT REMOVE THIS CREDITS
 */
 
 ob_start();
-define('API_KEY','YOUR BOT TOKEN'); // put your token here
+define('API_KEY','1879977540:AAHq0N9WJ-Lm7vFX_uVyDjpO0LYCPRgjt24'); // put your token here
 ini_set("log_errors","off");
 function bot($method,$datas=[]){
 $url = "https://api.telegram.org/bot".API_KEY."/".$method;
@@ -25,18 +25,15 @@ $from_id = $message->from->id;
 $message_id = $message->message_id;
 $text = $message->text;
 $indusbots = $message->forward_from_chat->id;
-//////////////////BENCHAMXD////////////////////////////BENCHAMXD///////BENCHAMXD///////////BENCHAMXD////////
+//////////////////Mafia////////////////////////////Mafia///////Mafia///////////Mafia////////
 if($text == "/start"){
  bot('sendMessage',[
  'chat_id'=>$chat_id,
  'text'=>"
 ***Hello 👋
-
 I CAN GET ANY PUBLIC AND PRIVATE CHANNEL ID
-
 FORWARD A MESSAGE FROM YOUR CHANNEL TO GET YOUR CHANNEL ID.
-
-FOR USER ID USE:- /id***",
+FOR USER ID USE:- /id @MafiaBot_Support***",
  'parse_mode'=>"MarkDown",
  'reply_to_message_id'=>$message_id,
   ]);  
@@ -44,18 +41,18 @@ FOR USER ID USE:- /id***",
 elseif(isset($message->forward_from_chat)){
 bot('sendMessage',[
  'chat_id'=>$chat_id,
- 'text'=>"Your CHANNEL ID is:$indusbots",
+ 'text'=>"Your CHANNEL ID is:$indusbots @MafiaBot_Support",
 'parse_mode'=>"MarkDown",
 'reply_to_message_id'=>$message_id,
 ]); 
 }
-/////////BENCHAMXD////////BENCHAMXD///////BENCHAMXD///////BENCHAMXD////
+/////////Mafia////////Mafia///////Mafia///////Mafia////
 if ($text == '/id')
 bot ('sendMessage' ,[
-'chat_id'=>$chat_id,'text'=>"This chat id is $chat_id"
+'chat_id'=>$chat_id,'text'=>"This chat id is $chat_id @MafiaBot_Support"
 ]);
 /*
-CREDITS:- @BENCHAMXD
-CHANNEL:- @indusbots
+CREDITS:- @Shinchan7222
+CHANNEL:- @MafiaBot_Support
 */
 ?>
