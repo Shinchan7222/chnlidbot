@@ -18,7 +18,7 @@
         }
     },
     "formation": {
-        "web": {
+        "webhook": {
             "quantity": 1,
             "size": "free"
         }
